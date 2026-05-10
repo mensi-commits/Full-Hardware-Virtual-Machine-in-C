@@ -1,7 +1,5 @@
 # TIM - Titanium Virtual Machine
 
-CanoScript is now in its own [repo](https://www.github.com/CobbCoding1/canoscript)
-
 Implementation of a virtual machine in C.
 
 VM currently has 45 instructions as well as a some native functions. List can be found in tim.h.

@@ -1,0 +1,7 @@
+@imp "stddefs.tash"
+main:
+push_str "Hello, world!\n"
+push STDOUT
+nwrite
+
+entrypoint main

@@ -1,0 +1,4 @@
+*.exe
+*.tim
+build/
+canoscript/build/

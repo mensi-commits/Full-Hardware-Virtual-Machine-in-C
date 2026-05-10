@@ -1,0 +1,9 @@
+@imp "stddefs.tash"
+main:
+    push_str "test\n"
+    push STDOUT
+    nwrite
+    push 69
+    exit
+
+entrypoint main

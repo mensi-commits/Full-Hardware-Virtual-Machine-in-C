@@ -1,0 +1,7 @@
+[] fix preprocessor bugs
+
+[x] fix the windows assembler of TASM
+
+[] test turing completeness
+
+

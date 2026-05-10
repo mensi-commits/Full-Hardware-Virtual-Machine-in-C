@@ -1,0 +1,21 @@
+@imp "stddefs.tash"
+push 1
+push_str "push 10\nprint\n"
+push_str "Enter the file name: "
+get_str 1
+push STDOUT
+write
+push 4 
+malloc
+push 8 
+push STDIN
+read
+push 1
+open
+dup
+inswap 0
+pop
+get_str 0
+swap
+write
+close

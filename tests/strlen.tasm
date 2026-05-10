@@ -1,0 +1,15 @@
+@imp "stddefs.tash"
+@imp "std.tash"
+push_str "Hello, world!\n"
+main:
+    push 5123
+    push 23
+    get_str 0
+    call stringlen 
+    call printint
+    push '\n'
+    ref
+    push STDOUT 
+    write
+
+entrypoint main

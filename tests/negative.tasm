@@ -1,0 +1,10 @@
+@imp "stddefs.tash"
+push -35
+push -34
+add
+int_to_str
+push STDOUT
+nwrite
+push_str "\n"
+push STDOUT
+nwrite

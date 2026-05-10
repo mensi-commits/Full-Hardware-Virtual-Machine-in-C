@@ -1,0 +1,8 @@
+@imp "std.tash"
+@imp "stddefs.tash"
+main:
+    push 69.420
+    call printfloat
+    call print_newline
+
+entrypoint main

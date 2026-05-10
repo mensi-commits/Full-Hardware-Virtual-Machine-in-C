@@ -1,0 +1,48 @@
+@imp "stddefs.tash"
+@def N 30 
+
+//push_str "\n"
+//push_str "# of iterations "
+
+push N 
+push 1
+push 1
+push 0
+
+loop:
+inswap 0
+dup
+push 0
+cmpe
+nzjmp end
+pop
+inswap 0
+
+indup 2
+inswap 1
+pop
+dup
+inswap 2
+pop
+indup 1
+indup 2
+add
+swap
+
+int_to_str
+push STDOUT
+nwrite
+
+inswap 0
+push 1
+sub
+inswap 0
+
+jmp loop 
+
+end:
+
+push N
+int_to_str
+push STDOUT
+nwrite
